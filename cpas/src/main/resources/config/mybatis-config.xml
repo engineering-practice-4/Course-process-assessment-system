@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 全局配置文件 别名配置 -->
+<configuration>
+    <typeAliases>
+        <typeAlias alias="Permission" type="org.wdsu.cpas.domain.entity.Permission"/>
+        <typeAlias alias="Role" type="org.wdsu.cpas.domain.entity.Role"/>
+        <typeAlias alias="RolePermission" type="org.wdsu.cpas.domain.entity.RolePermission"/>
+        <typeAlias alias="User" type="org.wdsu.cpas.domain.entity.User"/>
+        <typeAlias alias="UserRole" type="org.wdsu.cpas.domain.entity.UserRole"/>
+    </typeAliases>
+</configuration>
